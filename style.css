@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    background-image: url(./assets/hero1.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-shadow{
+    display: flex;
+    justify-content: center;
+    top: 0;
+}
+.box1{
+    position: absolute;
+    background-color: black;
+    height: 85vh;
+    width: 100%;
+    opacity: 0.6;
+}
+.box2{
+    position: absolute;
+    border-radius: 1px;
+    height: 85vh;
+    width: 100%;
+    box-shadow: 0px 0px 990px 65px inset; 
+    
+}
+
+nav{
+    position: relative;
+    height: 40px;
+    max-width: 77vw;
+    top:26px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 40px;
+}
+
+button{
+    color: white;
+    box-sizing: border-box;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 550;
+}
+
+.english{
+    background-color: transparent;
+    height: 30px;
+    width: 120px;
+    margin: 10px;
+    border: 1px solid white;
+}
+
+.signin{
+    height: 30px;
+    width: 80px;
+    margin: 10px;
+}
+
+p{
+    color: white;
+    margin: 10px;
+}
+
+.hero-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    height: 80vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.line1{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.line2{
+    font-size: 1.5rem;
+}
+
+.line3{
+    font-size: 1.1rem;
+}
+
+.input-section{
+    display: flex;
+    height: 55px;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+.input{
+    width: 55%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: black;
+    opacity: 0.6;
+    border: 1px solid rgb(205, 204, 204);
+}
+
+input[type="text"] {
+    color: rgb(255, 250, 250);
+    text-align: left;
+    padding-left: 20px;
+}
+
+.getstarted-button{
+    height: 100%;
+    width: 200px;
+    font-size: 1.6rem;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.section-divider{
+    height: 7px;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    border: none;   
+}
+
+section{
+    background-color: black;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+    width: 80vw;
+    content: unset;
+}
+
+.text{
+    position: relative;
+    width: 52%;
+}
+
+.media{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video, .frame{
+    position: absolute;
+}
+.video{
+    margin-bottom: 10px;
+}
+
+.fifth{
+    display: flex;
+    flex-direction: column;
+    height: 110vh;
+    gap: 10px;
+    padding: 40px 0 40px;
+    
+}
+
+.faq{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 75vw;
+    padding: 20px;
+    background-color: rgb(67, 67, 67);
+}
+
+
+.grid-container{
+    width: 75vw;
+    color: rgb(255 255 255 / 70%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.grid-container > div {
+    text-align: left;
+    text-decoration: underline ;
+
+    font-size: 15px;
+  }
+
+.item1, .item17, .item18{
+    grid-column: 1 / 5;
+  }
+
+
+
+
+
+
+
+
+
+
+
